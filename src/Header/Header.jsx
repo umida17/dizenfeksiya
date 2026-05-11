@@ -16,7 +16,7 @@ const Header = () => {
             <a href="#">Contact</a>
            </div>
 
-           <button>Kirish</button>
+           <button className='btn'>Kirish</button>
         </div>
       </div>
     </header>
