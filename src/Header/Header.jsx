@@ -5,7 +5,7 @@ import frame from '../assets/Frame.png';
 
 const Header = () => {
   return (
-    <header>
+    <header className='header'>
       <div className="container">
         <div className="header-container">
            <img src={frame} alt="Logo" />
