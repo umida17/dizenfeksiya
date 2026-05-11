@@ -7,7 +7,6 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        
         <div className="header-container">
            <img src={frame} alt="Logo" />
            <div className="home">
