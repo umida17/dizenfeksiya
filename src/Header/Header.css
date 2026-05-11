@@ -13,8 +13,17 @@
     padding: 15px;
 }
 .header{
-    
+     position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 10px 10px 10px rgb(222, 222, 220);
+    background: rgb(237, 236, 236);
+    z-index: 999999;
+    height: 90px;    
+  text-align: center; 
 }
+
 .header-container{
     display: flex;
     align-items: center;
