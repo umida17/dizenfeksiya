@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="container">
         <div className="Hero-container">
             <div className="dizenfeksiya">
-                <h2>Dizenfeksiya xizmati </h2>
+                <h2 className='xizmat'>Dizenfeksiya xizmati </h2>
                 <p>Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
                 <div className="dumaloq">
                     <div className="kok"></div>
