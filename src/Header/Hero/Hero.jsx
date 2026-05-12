@@ -1,5 +1,7 @@
 import React from 'react'
 
+import group from '../assets/Group'
+
 const Hero = () => {
   return (
      <>
@@ -9,7 +11,9 @@ const Hero = () => {
             <div className="dizenfeksiya">
                 <h2>Dizenfeksiya xizmati </h2>
                 <p>Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
-                
+                <div className="dumaloq">
+                    <img src={group} alt="" />
+                </div>
             </div>
         </div>
     </div>
