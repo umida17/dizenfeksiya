@@ -73,18 +73,29 @@
     align-items: center;
     gap: 10px;
 }
-.bolim{
-    background: #3375FF;
-    border-radius: 62px;
-     padding: 13px 50px;
-     border: none;
-     color: white;
-     font-weight: 600;
-     font-size: 16px;
-     line-height: 100%;
-    letter-spacing: 0%;
-
+.bolim {
+   background: #3375FF;
+  border-radius: 62px;
+  padding: 13px 50px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer; 
+  transition: all 0.3s ease; 
 }
+
+.bolim:hover {
+  background: #285ed9; 
+  transform: translateY(-3px); 
+  box-shadow: 0px 10px 20px rgba(51, 117, 255, 0.3);  
+}
+
+.bolim:active {
+  transform: translateY(-1px);  
+}
+
+ 
 
 .strelka{
     border: 1px solid #CCCCCC;

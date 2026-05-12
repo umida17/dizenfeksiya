@@ -44,9 +44,9 @@ const Main = () => {
         <div className="container">
             <div className="section2-container">
                 <div className="klapa">
-                    <h2>Klapa va zararli hashorot endi yo’q deb hisoblang !!!</h2>
-                    <p>Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
-                    <button>Bog’lanish</button>
+                    <h2 className='zararli'>Klapa va zararli hashorot endi yo’q deb hisoblang !!!</h2>
+                    <p className='yillar'>Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
+                    <button className='ulash'>Bog’lanish</button>
                 </div>
             </div>
         </div>

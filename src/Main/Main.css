@@ -56,5 +56,57 @@
 
 .klapa{
     width: 550px;
- 
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-left: 240px;
+ }
+ .zararli{
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 40px;
+    letter-spacing: 0%;
+    width: 380px;
+    color: #FAFAFA;
+    margin-bottom: 20px;
+ }
+
+ .yillar{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+    margin-bottom: 95px;
+ }
+
+.ulash {
+  background: #3375FF;
+  color: white;
+  border-radius: 62px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  padding: 13px 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+   animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(51, 117, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(51, 117, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(51, 117, 255, 0);
+  }
+}
+
+.ulash:hover {
+  transform: scale(1.05);  
+  background: #285ed9;
 }
