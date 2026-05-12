@@ -19,8 +19,8 @@ const Hero = () => {
                     <img className='siyoh' src={group} alt="" />
                 </div>
                 <div className="boshlanish">
-                    <button>Bog’lanish</button>
-                        <img src={vector} alt="" />
+                    <button className='bolim'>Bog’lanish</button>
+                        <img className='strelka' src={vector} alt="" />
                 </div>
             </div>
             <img className='xlor' src={xlor} alt="" />
