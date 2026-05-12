@@ -1,7 +1,7 @@
 import React from 'react'
+import "./Hero.css"; 
 
-import group from '../assets/Group'
-
+import group from "../../assets/Group.png";
 const Hero = () => {
   return (
      <>
