@@ -1,0 +1,60 @@
+.section1-containeri{
+    margin-bottom: 100px;
+}
+
+.avf{
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 44px;
+    letter-spacing: 0%;
+    border-bottom: 1px solid silver;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.mas{
+     margin-bottom: 20px;
+}
+
+.tezda{
+     font-weight: 600;
+     font-size: 26px;
+      line-height: 32px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #020C31;
+    margin-bottom: 8px;
+}
+.olib{
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #676D83;
+    width: 290px;
+}
+
+ 
+
+ .section2-container{
+  background-image: url('../assets/xaworat.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+    height: 600px;
+   margin-bottom: 150px;
+   border-radius: 20px;
+}
+
+.klapa{
+    width: 550px;
+ 
+}
