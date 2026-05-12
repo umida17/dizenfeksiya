@@ -12,11 +12,57 @@
 .dizenfeksiya{
     width: 600px;
 }
-.xizmat{
-     font-weight: 700;
-     font-size: 64px;
-     line-height: 72px;
+.xizmat {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  width: 530px;
+  color: #3375FF;
+  margin-bottom: 32px;
+
+   -webkit-text-stroke: 1.5px black;  
+   text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+
+   text-decoration: none; 
+}
+
+.kop{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
     letter-spacing: 0%;
-    width: 550px;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    width: 300px;
+    color: #676D83;
+}
+
+.dumaloq{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: -40px;
+}
+.kok{
+    border: 3px solid #FFFFFF;
+    background: #13ECF9;
+    border-radius: 120px;
+    width: 150px;
+    height: 150px;
+    margin-right: -180px;
+    margin-top: -80px;
+     
+}
+.mentol{
+    background: #AAFDF8;
+    border-radius: 120px;
+    width: 76px;
+    height: 73px;
+    margin-top: -190px;
+     
+     z-index: -99999;
+}
+.siyoh{
+    width: 38%;
+}
+.xlor{
+    width: 48%;
 }
